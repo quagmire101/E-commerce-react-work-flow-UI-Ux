@@ -6,11 +6,11 @@ import { useNavigate } from 'react-router-dom'
 
 export const ShopBrands = () => {
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     return (
-        <>
-            <Grid align='stretch' gutter={0}>
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <Grid align='stretch' gutter={0} style={{ flex: 1 }}>
                 <Grid.Col span={12}>
                     <Box className='group h-[100%] w-[100%] flex flex-col justify-center items-center gap-4' style={{ background: 'linear-gradient(to left, #F6F5F2, #C7C8CC)' }}>
                         <Title order={1} className='text-white'>Mens shoe wear</Title>
@@ -19,8 +19,8 @@ export const ShopBrands = () => {
                     </Box>
                 </Grid.Col>
             </Grid>
-    
-            <Grid align='stretch' gutter={0}>
+
+            <Grid align='stretch' gutter={0} style={{ flex: 1 }}>
                 <Grid.Col span={12}>
                     <Box className='group h-auto md:h-[80vh] w-[100%] bg-white flex flex-col md:flex-row justify-between items-center px-3 overflow-hidden'>
                         <Box className='justicy-center items-center flex flex-col gap-4'>
@@ -31,8 +31,6 @@ export const ShopBrands = () => {
                     </Box>
                 </Grid.Col>
             </Grid>
-    
-           
-        </>
+        </div>
     );
 }

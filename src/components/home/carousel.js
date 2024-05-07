@@ -9,7 +9,7 @@ const data = [
         image:
             'https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg',
         title: 'Walk the path of success, one stylish step at a time.',
-        classname: 'left-[2vw] top-[60vh]',
+        classname: 'left-[2vw] top-[40vh]',
         button: 'Shop for men',
         color: 'blue',
         cat: 'men',
@@ -18,7 +18,7 @@ const data = [
         image:
             'https://images.pexels.com/photos/1801279/pexels-photo-1801279.jpeg',
         title: 'Step into confidence, stride into greatness; your shoes define your journey.',
-        classname: 'left-[2vw] top-[60vh]',
+        classname: 'left-[2vw] top-[40vh]',
         button: 'Shop for women',
         color: 'pink',
         cat: 'women',
@@ -27,7 +27,7 @@ const data = [
         image:
             'https://images.pexels.com/photos/847371/pexels-photo-847371.jpeg',
         title: 'Elevate your style, lift your spirit – it begins with the right pair of shoes.',
-        classname: 'left-[2vw] top-[60vh]',
+        classname: 'left-[2vw] top-[40vh]',
         button: 'Shop for men',
         color: 'blue',
         cat: 'men',
@@ -36,7 +36,7 @@ const data = [
         image:
             'https://images.pexels.com/photos/1261005/pexels-photo-1261005.jpeg',
         title: 'Upgrade your footwear, upgrade your attitude – because every step matters.',
-        classname: 'left-[2vw] top-[60vh]',
+        classname: 'left-[2vw] top-[40vh]',
         button: 'Shop for women',
         color: 'pink',
         cat: 'women',
@@ -64,7 +64,7 @@ export const CarouselUI = () => {
     ));
 
     return <Carousel withIndicators
-        height={'90vh'}
+        height={'70vh'}
         slideSize={{ base: '100%' }}
         loop
         align="start"
